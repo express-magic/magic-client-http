@@ -1703,9 +1703,10 @@ var dom = {
     }
     findParent(ele.parentNode, type);
   }),
-  add: undefined.append,
-  rm: undefined.remove,
-  parentNode: undefined.findParent
+
+  add: dom.append,
+  rm: dom.remove,
+  parentNode: dom.findParent
 };
 
 exports.dom = dom;
