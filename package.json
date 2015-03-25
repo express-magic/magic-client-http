@@ -1,0 +1,29 @@
+{
+  "name": "magic-client-http",
+  "version": "0.0.1",
+  "description": "magic client http request utilities, including iframes for cross domain requests'",
+  "main": "gs",
+  "scripts": {
+    "setup": "bin/install",
+    "clean": "bin/clean",
+    "prepub": "bin/build",
+    "release": "bin/release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/express-magic/magic-client-http"
+  },
+  "author": "Jascha Ehrenreich <jascha@jaeh.at>",
+  "license": "AGPL",
+  "bugs": {
+    "url": "https://github.com/express-magic/magic-client-http/issues"
+  },
+  "homepage": "https://github.com/express-magic/magic-client-http",
+  "dependencies": {
+    "magic-client-dom": "git://github.com/express-magic/magic-client-dom"
+  },
+  "devDependencies": {
+    "babelify": "^5.0.4",
+    "browserify": "^9.0.3"
+  }
+}
