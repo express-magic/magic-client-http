@@ -15,15 +15,19 @@
   },
   "author": "Jascha Ehrenreich <jascha@jaeh.at>",
   "license": "AGPL",
-  "bugs": {
-    "url": "https://github.com/express-magic/magic-client-http/issues"
-  },
-  "homepage": "https://github.com/express-magic/magic-client-http",
   "dependencies": {
-    "magic-client-dom": "git://github.com/express-magic/magic-client-dom"
+    "magic-client-dom": "git+https://github.com/express-magic/magic-client-dom"
   },
   "devDependencies": {
     "babelify": "^5.0.4",
     "browserify": "^9.0.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/express-magic/magic-client-"
+  },
+  "bugs": {
+    "url": "https://github.com/express-magic/magic-client-http/issues"
+  },
+  "homepage": "https://github.com/express-magic/magic-client-http"
 }
